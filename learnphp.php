@@ -45,6 +45,21 @@ EOD;
     } else {
       echo '<p>No Discount</p>';
     };
+    
+    echo "<br />";
+
+    $num = 0;
+
+    while($num < 20) {
+      $num++;
+      echo $num . '<br />';
+    };
+    
+    echo "<br />";
+
+    for($num = 1; $num <= 20; $num++) {
+      echo $num . '<br />';
+    };
   ?>
 
 </body>
