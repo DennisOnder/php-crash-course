@@ -5,9 +5,13 @@
 <body>
   
   <?php
-    echo "<p>Data Processed</p>";
-    date_default_timezone_set('UTC');
-    echo date('h:i:s a, l F jS Y e');
+    $usersName = $_POST['name'];
+    $addressName = $_POST['address'];
+    $cityName = $_POST['city'];
+
+    echo $usersName . "</br>";
+    echo $addressName . "</br>";
+    echo $cityName . "</br>";
   ?>
 
 </body>
