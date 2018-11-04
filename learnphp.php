@@ -69,6 +69,12 @@ EOD;
     foreach($bestFriends as $friend) {
       echo $friend . "<br />";
     };
+
+    function addNumbers($num1, $num2) {
+      echo $num1 + $num2;
+    };
+
+    addNumbers(2, 2);
   ?>
 
 </body>
