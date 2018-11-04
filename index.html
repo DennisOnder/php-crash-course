@@ -10,10 +10,10 @@
 
 <body style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
   <h1 style="font-family: Arial, Helvetica, sans-serif;">PHP Crash Course:</h1>
-  <form style="display: flex; flex-direction: column; width: 400px">
-    <input style="margin: 10px 0" type="text" placeholder="Name:">
-    <input style="margin: 10px 0" type="text" placeholder="Address:">
-    <input style="margin: 10px 0" type="text" placeholder="City:">
+  <form method="post" action="learnphp.php" style="display: flex; flex-direction: column; width: 400px">
+    <input style="margin: 10px 0" type="text" name="name" placeholder="Name:">
+    <input style="margin: 10px 0" type="text" name="address" placeholder="Address:">
+    <input style="margin: 10px 0" type="text" name="city" placeholder="City:">
     <input style="margin: 10px 0" type="submit" value="Submit">
   </form>
 </body>
