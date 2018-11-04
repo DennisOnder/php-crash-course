@@ -65,6 +65,10 @@ EOD;
     for($num = 0; $num < sizeof($bestFriends); $num++) {
       echo $bestFriends[$num] . "<br />";
     };
+
+    foreach($bestFriends as $friend) {
+      echo $friend . "<br />";
+    };
   ?>
 
 </body>
