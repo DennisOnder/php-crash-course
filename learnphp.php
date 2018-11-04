@@ -54,11 +54,16 @@ EOD;
       $num++;
       echo $num . '<br />';
     };
-    
+
     echo "<br />";
 
     for($num = 1; $num <= 20; $num++) {
       echo $num . '<br />';
+    };
+
+    $bestFriends = array('Jack', 'John', 'Radio');
+    for($num = 0; $num < sizeof($bestFriends); $num++) {
+      echo $bestFriends[$num] . "<br />";
     };
   ?>
 
